@@ -1,0 +1,18 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 40px 40px 40px 40px;
+}
+
+.grid-item {
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color: #2980B9;
+    background-color: #D6EAF8;
+    margin: 2px;
+    padding: 8px;
+}
+
+h2 {
+    color: #2980B9;
+}
