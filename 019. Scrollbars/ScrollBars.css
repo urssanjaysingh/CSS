@@ -1,0 +1,26 @@
+/* There may be a case when an element's content might be larger than the
+amount of space allocated to it. For example, the given width and height
+properties do not allow enough room to accommodate the content of the
+element.
+CSS provides a property called overflow, which tells the browser what to do if the
+box's contents is larger than the box itself. */
+
+.scroll {
+    display: block;
+    border: 1px solid red;
+    padding: 5px;
+    margin-top: 5px;
+    width: 300px;
+    height: 50px;
+    overflow: scroll;
+}
+
+.auto {
+    display: block;
+    border: 1px solid red;
+    padding: 5px;
+    margin-top: 5px;
+    width: 300px;
+    height: 50px;
+    overflow: auto;
+}

@@ -1,0 +1,51 @@
+<!-- The cursor property of CSS allows you to specify the type of cursor that should
+be displayed to the user.
+One good usage of this property is in using images for submit buttons on forms.
+By default, when a cursor hovers over a link, the cursor changes from a pointer
+to a hand. However, it does not change form for a submit button on a form.
+Therefore, whenever someone hovers over an image that is a submit button, it
+provides a visual clue that the image is clickable.
+
+NOTE: You should try to use only these values to add helpful information for
+users, and in places, they would expect to see that cursor. For example, using
+the crosshair when someone hovers over a link can confuse the visitors. -->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Cursors</title>
+    </head>
+
+    <body>
+        <p>Move the mouse over the words to see the cursor change: </p>
+        <div style="cursor: auto">Auto</div>
+        <div style="cursor: crosshair">Crosshair</div>
+        <div style="cursor: default">Default</div>
+        <div style="cursor: pointer">Pointer</div>
+        <div style="cursor: move">Move</div>
+        <div style="cursor: e-resize">e-resize</div>
+        <div style="cursor: ne-resize">ne-resize</div>
+        <div style="cursor: nw-resize">nw-resize</div>
+        <div style="cursor: n-resize">n-resize</div>
+        <div style="cursor: se-resize">se-resize</div>
+        <div style="cursor: sw-resize">sw-resize</div>
+        <div style="cursor: s-resize">s-resize</div>
+        <div style="cursor: w-resize">w-resize</div>
+        <div style="cursor: text">text</div>
+        <div style="cursor: wait">wait</div>
+        <div style="cursor: help">help</div>
+    </body>
+
+</html>
+
+<!-- 
+e-resize: The cursor indicates that an edge of a box is to be moved right (east).
+ne-resize: The cursor indicates that an edge of a box is to be moved up and right (north/east).
+nwresize: The cursor indicates that an edge of a box is to be moved up and left (north/west).
+n-resize: The cursor indicates that an edge of a box is to be moved up (north).
+se-resize: The cursor indicates that an edge of a box is to be moved down and right (south/east).
+swresize: The cursor indicates that an edge of a box is to be moved down and left (south/west).
+s-resize: The cursor indicates that an edge of a box is to be moved down (south).
+w-resize: The cursor indicates that an edge of a box is to be moved left (west).
+-->

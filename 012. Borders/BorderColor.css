@@ -1,0 +1,16 @@
+/* The border-color property allows you to change the color of the border
+surrounding an element. You can individually change the color of the bottom,
+left, top and right sides of an element's border  */
+
+p.example1 {
+    border: 1px solid;
+    border-bottom-color: green;
+    border-top-color: red;
+    border-left-color: black;
+    border-right-color: blue;
+}
+
+p.example2 {
+    border: 1px solid;
+    border-color: green;
+}

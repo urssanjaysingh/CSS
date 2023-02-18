@@ -1,0 +1,12 @@
+/* The table-layout property is supposed to help you control how a browser should
+render or lay out a table.
+This property can have one of the three values: fixed, auto, or inherit.
+The following example shows the difference between these properties. */
+
+table.auto {
+    table-layout: auto;
+}
+
+table.fixed {
+    table-layout: fixed;
+}

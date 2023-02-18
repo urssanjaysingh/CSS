@@ -1,0 +1,20 @@
+/* The caption-side property allows you to specify where the content of a
+<caption> element should be placed in relationship to the table. The table that
+follows lists the possible values.
+This property can have one of the four values top, bottom, left, or right. The
+following example uses each value. */
+
+caption.top {
+  caption-side: top;
+}
+caption.bottom {
+  caption-side: bottom;
+}
+
+caption.left {
+  caption-side: left;
+}
+
+caption.right {
+  caption-side: right;
+}

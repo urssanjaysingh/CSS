@@ -1,0 +1,34 @@
+<!-- Outlines are very similar to borders, but there are few major differences as well:
+An outline does not take up space.
+Outlines do not have to be rectangular.
+Outline is always the same on all sides; you cannot specify different
+values for different sides of an element. 
+
+The outline-width property specifies the width of the outline to be added to the
+box. Its value should be a length or one of the values thin, medium, or thick,
+just like the border-width attribute.
+A width of zero pixels means no outline.
+-->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Outline-Width</title>
+    </head>
+
+    <body>
+        <p style="outline-width: thin; outline-style: solid; ">
+            This text is having thin outline.
+        </p>
+        <br />
+        <p style="outline-width: thick; outline-style: solid; ">
+            This text is having thick outline.
+        </p>
+        <br />
+        <p style="outline-width: 5px; outline-style: solid; ">
+            This text is having 5x outline.
+        </p>
+    </body>
+
+</html>

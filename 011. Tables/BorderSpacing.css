@@ -1,0 +1,18 @@
+/* The border-spacing property specifies the distance that separates the adjacent
+cells’ borders. It can take either one or two values; these should be units of
+length.
+If you provide one value, it applies to both vertical and horizontal borders. Or
+you can specify two values, in which case, the first refers to the horizontal
+spacing and the second to the vertical spacing: */
+
+table.one {
+    border-collapse:separate;
+    width: 400px;
+    border-spacing: 10px;
+}
+
+table.two {
+    border-collapse:separate;
+    width: 400px;
+    border-spacing: 10px 50px;
+}
