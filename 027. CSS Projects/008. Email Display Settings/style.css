@@ -1,0 +1,6 @@
+p {
+    border: solid 1px gray;
+    background-color: lightsteelblue;
+    margin: 0;
+    padding: 30px 25px 15px 25px; /* top right bottom left */
+}

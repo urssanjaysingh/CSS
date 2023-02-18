@@ -1,0 +1,23 @@
+h2 {
+    margin: 40px 30px 30px 30px; /* top right bottom left */
+}
+
+p {
+    margin: 30px 30px 0 30px; /* top right bottom left */
+}
+
+button {
+    font-size: 18px;
+    background-color: purple;
+    color: white;
+    border-radius: 30px;
+    margin: 30px 0 0 0; /* top right bottom left */
+}
+
+body {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+}
