@@ -1,0 +1,35 @@
+<!-- The <link> element can be used to include an external stylesheet file in your HTML document.
+An external style sheet is a separate text file with .css extension. You define all the Style rules 
+within this text file and then you can include this file in any HTML document using <link> element. -->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>External CSS</title>
+        <link rel="stylesheet" href="mystyle.css">
+    </head>
+
+    <body>
+        <h1>This is External CSS</h1>
+    </body>
+
+</html>
+
+<!-- IMPORTED CSS: @import is used to import an external stylesheet in a manner similar to the
+<link> element.
+<head>
+    @import "mystyle.css";
+</head>
+-->
+
+<!-- We have discussed four ways to include style sheet rules in an HTML document.
+Here is the rule to override any Style Sheet Rule.
+>> Any inline style sheet takes the highest priority. So, it will override any rule defined in 
+    <style>...</style> tags or the rules defined in any external style sheet file. 
+
+>> Any rule defined in <style>...</style> tags will override the rules defined in any external 
+    style sheet file.
+
+>> Any rule defined in the external style sheet file takes the lowest priority, and the rules defined 
+in this file will be applied only when the above two rules are not applicable. -->

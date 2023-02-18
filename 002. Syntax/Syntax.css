@@ -1,0 +1,81 @@
+/* TYPE SELECTOR: Below is the example to give a color to all level 1 headings: */
+h1 {
+  color: #36cfff;
+}
+
+/* UNIVERSAL SELECTOR: Rather than selecting elements of a specific type, 
+the universal selector quite simply matches the name of any element type: */
+* {
+  color: #000000;
+}
+
+/* DESCENDANT SELECTOR: Suppose you want to apply a style rule to a particular element only when 
+it lies inside a particular element. As given in the following example, the style rule will apply
+to <em> element only when it lies inside the <ul> tag. */
+ul em {
+  color: #000000;
+}
+
+/* THE CLASS SELECTOR: You can define style rules based on the class attribute of the elements. 
+All the elements having that class will be formatted according to the defined rule. */
+.black {
+  color: #000000;
+}
+/* This rule renders the content in black for every element with class attribute set to black 
+in our document. You can make it a bit more particular. For example: Following rule renders the content in black for only <h1> elements with class attribute set to black. */
+h1.black {
+  color: #000000;
+}
+/* You can apply more than one class selectors to a given element. Consider the following example: 
+<p class="center bold">
+This para will be styled by the classes center and bold.
+</p> 
+*/
+
+/* THE ID SELECTOR: You can define style rules based on the id attribute of the elements. 
+All the elements having that id will be formatted according to the defined rule. */
+#black {
+  color: #000000;
+}
+/* This rule renders the content in black for every element with id attribute set to black in our 
+document. You can make it a bit more particular. For example: Following rule renders the content 
+in black for only <h1> elements with id attribute set to black. */
+h1#black {
+  color: #000000;
+}
+/* The true power of id selectors is when they are used as the foundation for descendant selectors. 
+For example: In the example below, all level 2 headings will be displayed in black color when 
+those headings will lie within tags having id attribute set to black. */
+#black h2 {
+  color: #000000;
+}
+
+/* CHILD SELECTORS: You have seen the descendant selectors. There is one more type of selector,
+which is very similar to descendants but have different functionality. Consider the following example: */
+body > p {
+  color: #000000;
+}
+/* This rule will render all the paragraphs in black if they are a direct child of the <body> element.
+Other paragraphs put inside other elements like <div> or <td> would not have any effect of this rule. */
+
+/* ATTRIBUTE SELECTOR: You can also apply styles to HTML elements with particular attributes. 
+The style rule below will match all the input elements having a type attribute with a value of text: */
+input[type="text"] {
+  color: #000000;
+}
+/* The advantage to this method is that the <input type="submit" /> element is unaffected, 
+and the color applied only to the desired text fields. */
+
+/* GROUPING SELECTOR: You can apply a style to many selectors if you like. 
+Just separate the selectors with a comma, AND You can define MULTIPLE rules to combine multiple 
+properties and corresponding values into a single block, all the property and value pairs are 
+separated by a semicolon (;). */
+h1,
+h2,
+h3 {
+  color: #36c;
+  font-weight: normal;
+  letter-spacing: 0.4em;
+  margin-bottom: 1em;
+  text-transform: lowercase;
+}

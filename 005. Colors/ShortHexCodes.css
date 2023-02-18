@@ -1,0 +1,18 @@
+/* A hexadecimal is a 6 digit representation of a color. The first two digits (RR)
+represent a red value, the next two are a green value (GG), and the last are the blue value (BB). 
+Each hexadecimal code will be preceded by a pound or hash sign ‘#’.
+
+Short Hex Codes: 
+This is a shorter form of the six-digit notation. In this format, each digit is
+replicated to arrive at an equivalent six-digit value. For example: #6A7 becomes
+#66AA77. 
+
+Black   :   #000
+Red     :   #F00
+Green   :   #0F0
+Blue    :   #00F
+Yellow  :   #FF0
+Aqua    :   #0FF
+Pink    :   #F0F
+White   :   #FFF
+*/

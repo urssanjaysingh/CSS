@@ -1,0 +1,33 @@
+<!-- You can put your CSS rules into an HTML document using the <style> element. This tag is placed
+    inside the <head>...</head> tags. Rules defined using this syntax will be applied to all the 
+    elements available in the document. */ -->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Embedded CSS</title>
+        <style type="text/css" media="all">
+            h1 {
+                color: #36C;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>This is Embedded CSS</h1>
+    </body>
+
+</html>
+
+<!-- HANDLING OLD BROWSERS
+There are still many old browsers who do not support CSS. So, we should take
+care while writing our Embedded CSS in an HTML document. The following
+snippet shows how to use comment tags to hide CSS from older browsers: -->
+<style type="text/css">
+    <!-- body,
+    td {
+        color: blue;
+    }
+    -->
+</style>
