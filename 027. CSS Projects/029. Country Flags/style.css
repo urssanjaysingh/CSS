@@ -1,0 +1,34 @@
+body {
+    background-color: #CCC;
+    text-align: center;
+}
+
+p {
+    width: 200px;
+    height: 50px;
+    margin: 0 auto;
+}
+
+.red {
+    background-color: #F00;
+}
+
+.white {
+    background-color: #FFF;
+}
+
+.green {
+    background-color: #0F0;
+}
+
+.yellow {
+    background-color: #FF0;
+}
+
+.blue {
+    background-color: #00F;
+}
+
+.black {
+    background-color: #000;
+}
