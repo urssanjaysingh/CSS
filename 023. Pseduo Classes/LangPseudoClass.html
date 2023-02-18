@@ -1,0 +1,35 @@
+<!-- The language pseudo-class :lang, allows constructing selectors based on the
+language setting for specific tags.
+
+This class is useful in documents that must appeal to multiple languages that
+have different conventions for certain language constructs. For example, the
+French language typically uses angle brackets (< and >) for quoting purposes,
+while the English language uses quote marks (' and ').
+
+In a document that needs to address this difference, you can use the :lang
+pseudo-class to change the quote marks appropriately. The following code
+changes the <blockquote> tag appropriately for the language being used: -->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Lang Pseudo Class</title>
+    </head>
+
+    <body>
+        <style type="text/css">
+            /* Two levels of quotes for two languages*/
+            :lang(en) {
+                quotes: '"' '"' "'" "'";
+            }
+        
+            :lang(fr) {
+                quotes: "<<" ">>" "<" ">";
+            }
+        </style>
+        <p>... <q lang="fr">A quote in a paragraph</q>... </p>
+
+    </body>
+
+</html>

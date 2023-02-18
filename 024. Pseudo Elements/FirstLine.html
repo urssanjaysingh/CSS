@@ -1,0 +1,37 @@
+<!-- CSS pseudo-elements are used to add special effects to some selectors. You do
+not need to use JavaScript or any other script to use those effects. A simple
+syntax of pseudo-element is as follows:
+    selector: pseudo-element {property: value}
+CSS classes can also be used with the pseudo-elements:
+    selector. class: pseudo-element {property: value} -->
+
+<!-- The following example demonstrates how to use the :first-line element to add
+special effects to the first line of elements in a document. -->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>First Line Pseudo Element</title>
+        <style type="text/css">
+            p:first-line {
+                text-decoration: underline;
+            }
+
+            p.noline:first-line {
+                text-decoration: none;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p class="noline"> This line would not have any underline
+            because this belongs to nदline class. </p>
+        <p>The first line of this paragraph will be underlined
+            as defined in the CSS rule above. Rest of the lines in this
+            paragraph will remain normal. This example shows how to use
+            :first-line pseduo element to give effect to the first line
+            of any HTML element. </p>
+    </body>
+
+</html>

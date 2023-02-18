@@ -1,0 +1,10 @@
+/* The @font-face rule is used to exhaustively describe a font face for use in a
+document. @font-face may also be used to define the location of a font for
+download, although this may run into implementation-specific limits.
+In general, @font-face is extremely complicated, and its use is not
+recommended for any except those who are expert in font metrics. */
+
+@font-face {
+    font-family: "Scarborough Light";
+    src: url("http://www.font.site/s/scarbo-lt");
+}

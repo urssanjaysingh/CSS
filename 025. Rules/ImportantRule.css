@@ -1,0 +1,22 @@
+/* Cascading Style Sheets cascade. It means that the styles are applied in the
+same order as they are read by the browser. The first style is applied and then
+the second and so on.
+The !important rule provides a way to make your CSS cascade. It also includes
+the rules that are to be applied always. A rule having a !important property will
+always be applied, no matter where that rule appears in the CSS document. */
+
+/* For example, in the following style sheet, the paragraph text will be black, even
+though the first style property applied is red: */
+
+p { color: #ff0000; }
+p { color: #000000; }
+
+/* So, if you wanted to make sure that a property always applied, you would add
+the !important property to the tag. So, to make the paragraph text always red,
+you should write it as follows: */
+
+p { color: #ff0000 !important; }
+p { color: #000000; }
+
+/* Here you have made p { color: #ff0000 !important; } mandatory, now this rule
+will always apply even you have defined another rule p { color: #000000; }. */

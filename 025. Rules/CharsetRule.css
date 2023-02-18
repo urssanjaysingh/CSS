@@ -1,0 +1,8 @@
+/* If you are writing your document using a character set other than ASCII or ISO-
+8859-1 you might want to set the @charset rule at the top of your style sheet to
+indicate what character set the style sheet is written in.
+The @charset rule must be written right at the beginning of the style sheet
+without even a space before it. The value is held in quotes and should be one of
+the standard character-sets. For example:  */
+
+@charset "iso-8859-1";

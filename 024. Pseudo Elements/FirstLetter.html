@@ -1,0 +1,31 @@
+<!-- The following example demonstrates how to use the :first-letterelement to add
+special effect to the first letter of elements in the document. -->
+
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>First Letter Pseudo Element</title>
+        <style type="text/css">
+            p:first-letter {
+                font-size: 5em;
+                color: red;
+            }
+        
+            p.normal:first-letter {
+                font-size: 10px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <p class="normal"> First character of this paragraph will
+            be normal and will have font size 10 px; </p>
+        <p>The first character of this paragraph will be 5em big
+            and in red color as defined in the CSS rule above. Rest of the
+            characters in this paragraph will remain normal. This example
+            shows how to use :first-letter pseduo element to give effect to
+            the first characters of any HTML element. </p>
+    </body>
+
+</html>
