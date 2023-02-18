@@ -1,0 +1,21 @@
+.box1, .box2, .box3, .box4 {
+    width: 100px;
+    height: 100px;
+    border: none;
+}
+
+.box1 {
+    background-color: #F34F1C;
+}
+
+.box2 {
+    background-color: #7FBC00;
+}
+
+.box3 {
+    background-color: #FFBA01;
+}
+
+.box4 {
+    background-color: #01A6F0;
+}
