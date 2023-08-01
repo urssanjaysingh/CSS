@@ -30,7 +30,7 @@ The CSS Course is structured as follows:
 
 4. **CSS Grid**: Covers the CSS Grid layout model and how to create grid-based layouts.
 
-5. **CSS Animations and Transitions**: Covers CSS animations and transitions to add dynamic effects to web pages.
+5. **CSS Animations and Transitions**: Covers CSS animations and transitions to add some dynamic effects to web pages.
 
 ## Contributing
 
