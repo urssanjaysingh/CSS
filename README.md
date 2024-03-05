@@ -40,4 +40,4 @@ urssanjaysingh welcomes contributions to this course! If you have any improvemen
 
 If you have any questions or need further assistance, you can reach out to urssanjaysingh via email at sanjaysingh26112000@gmail.com.
 
-Thank you for participating in the CSS Course! Happy learning and styling!
+Thank you for participating in the CSS Course! Happy learning and styling! :)
